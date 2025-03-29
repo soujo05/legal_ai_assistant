@@ -6,3 +6,4 @@ chromadb
 transformers
 whisper
 streamlit
+langchain-community
