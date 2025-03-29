@@ -7,3 +7,4 @@ transformers
 whisper
 streamlit
 langchain-community
+sentence-transformers
