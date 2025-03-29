@@ -2,7 +2,7 @@ import os
 import requests
 from retrieval import setup_rag
 
-GROQ_API_URL = os.getenv("GROQ_API_URL")
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 API_KEY = os.getenv("API_KEY")
 
 def ask_legal_ai(query):
