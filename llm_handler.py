@@ -1,6 +1,8 @@
+from dotenv import load_dotenv
 import os
 import requests
 from retrieval import setup_rag
+load_dotenv()
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 API_KEY = os.getenv("API_KEY")
