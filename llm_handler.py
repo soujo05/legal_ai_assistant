@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from retrieval import setup_rag
 
-GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_API_URL = st.secrets["GROQ_API_URL"]
 API_KEY = st.secrets["API_KEY"]
 
 def ask_legal_ai(query):
