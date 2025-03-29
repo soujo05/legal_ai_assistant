@@ -1,3 +1,4 @@
+import os
 import requests
 from retrieval import setup_rag
 
