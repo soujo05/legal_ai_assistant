@@ -1,11 +1,9 @@
-from dotenv import load_dotenv
-import os
+import streamlit as st
 import requests
 from retrieval import setup_rag
-load_dotenv()
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-API_KEY = "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"
+API_KEY = st.secrets["API_KEY"]
 
 def ask_legal_ai(query):
     temp_retriever, global_retriever = setup_rag()
