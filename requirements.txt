@@ -1,0 +1,8 @@
+langchain
+groq
+faiss-cpu
+pypdf2
+chromadb
+transformers
+whisper
+streamlit
