@@ -53,7 +53,7 @@ streamlit run legal_ai.py
 ### Configuration
 
 - Set up API keys in `.env` file (e.g., `GROQ_API_KEY``)
-- Here as i deployed this project, the api keys are stored in st.secret
+- Here as I deployed this project, the api keys are stored in st.secret
 
 ## Usage
 
