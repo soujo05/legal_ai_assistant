@@ -2,6 +2,7 @@ import streamlit as st
 from retrieval import setup_rag, process_uploaded_pdf
 from llm_handler import ask_legal_ai
 
+st.image("app_thumbnail.png", use_column_width=True)
 st.set_page_config(page_title="Legal AI Assistant", page_icon="⚖️", layout="centered")
 
 st.markdown("""
